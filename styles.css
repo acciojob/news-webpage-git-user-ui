@@ -1,1 +1,70 @@
-/*  your css code here. If applicable */
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* Header */
+        .header {
+            background-color: #011e29;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px auto;
+            width: 1100px;
+        }
+
+        /* Latest News Section */
+        .latest-news-section {
+            background-color: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .latest-news-section h3 {
+            margin-top: 0;
+        }
+
+        .latest-news-section ul {
+            padding-left: 20px;
+        }
+
+        .latest-news-section li {
+            margin-bottom: 10px;
+        }
+
+        /* Main News Content */
+        .main-news {
+            background-color: white;
+            padding: 20px;
+            width: 400px;
+            border-radius: 10px;
+        }
+
+        .main-news img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        /* Pictorial News Section */
+        .pictorial-news-section {
+            background-color: white;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .pictorial-news-section img {
+            width: 100%;
+            margin-bottom: 15px;
+            border-radius: 6px;
+        }
